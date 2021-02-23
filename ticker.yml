@@ -1,0 +1,21 @@
+tasks:
+  - type: 'warn'#支持info、err、warn三种提示类型
+    title: '起来走走'
+    content: '起来走走！走走更健康！活的更长久！'
+    crontab: '0 */30 10-18 * * 1-5'#周一到周五 早上10点到晚上18点
+  - type: 'info'
+    title: '点饭'
+    content: '该点饭了！'
+    crontab: '0 40 13 * * 1-5'#周一到周五 下午13:40
+  - type: 'info'
+    title: '起来走走^_~'
+    content: "起来走走！走走更健康！活的更长久！\n^_~"
+    crontab: '0 35 14 * * 1-5'#周一到周五 下午14:35
+  - type: 'info'
+    title: '周报'
+    content: '该写本周周报了'
+    crontab: '0 0 15 * * 5'#周五15:00
+  - type: 'err'
+    title: '起来走走^_~'
+    content: "起来走走！走走更健康！活的更长久！\n^_~"
+    crontab: '*/15 * * * * *'#周五15:00

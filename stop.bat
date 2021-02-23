@@ -1,0 +1,1 @@
+tasklist|find /i "ticker.exe" && taskkill /F /IM ticker.exe && exit
