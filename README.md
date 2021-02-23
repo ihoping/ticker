@@ -7,3 +7,6 @@
  
 ## setting
 `ticker.yml`
+
+## example
+![image.png](https://i.loli.net/2021/02/23/TSAl4wbftNFgDE8.png)
